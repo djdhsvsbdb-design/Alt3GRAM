@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="AppName">ALT3GRAM</string>
-    <string name="AppNameBeta">ALT3GRAM Beta</string>
+    <string name="AppName">Alt3gram</string>
+    <string name="AppNameBeta">Alt3gram Beta</string>
     <string name="LanguageName">English</string>
     <string name="English">English</string>
     <string name="LanguageNameInEnglish">English</string>
