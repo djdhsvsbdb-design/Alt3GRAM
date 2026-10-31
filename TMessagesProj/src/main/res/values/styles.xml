@@ -3,23 +3,29 @@
 
     <!--THEMES-->
 
-    <style name="Theme.TMessages.Start" parent="Theme.AppCompat.Light">
+    <style name="Theme.TMessages.Start" parent="Theme.AppCompat">
         <item name="android:windowActionBar">false</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:actionBarStyle">@style/ActionBar.Transparent.TMessages.Start</item>
-        <item name="android:colorBackground">@android:color/white</item>
-        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:colorBackground">#0B0B0F</item>
+        <item name="android:windowBackground">#0B0B0F</item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:textViewStyle">@style/MyTextViewStyle</item>
     </style>
 
-    <style name="Theme.TMessages" parent="Theme.AppCompat.Light">
+    <style name="Theme.TMessages" parent="Theme.AppCompat">
+        <item name="android:colorPrimary">#15121D</item>
+        <item name="android:colorPrimaryDark">#0B0B0F</item>
+        <item name="android:navigationBarColor">#0B0B0F</item>
+        <item name="android:statusBarColor">#0B0B0F</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:forceDarkAllowed">false</item>
         <item name="android:windowActionBar">false</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBarOverlay">false</item>
         <item name="android:windowContentOverlay">@null</item>
-        <item name="android:colorBackground">@android:color/white</item>
-        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:colorBackground">#0B0B0F</item>
+        <item name="android:windowBackground">#0B0B0F</item>
         <item name="android:itemTextAppearance">@style/ActionBar.Transparent.TMessages.Item</item>
         <item name="android:listViewStyle">@style/Theme.TMessages.ListView</item>
         <item name="android:listChoiceBackgroundIndicator">@drawable/list_selector_ex</item>
@@ -32,8 +38,8 @@
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBarOverlay">false</item>
         <item name="android:windowContentOverlay">@null</item>
-        <item name="android:colorBackground">@android:color/black</item>
-        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:colorBackground">#0B0B0F</item>
+        <item name="android:windowBackground">#0B0B0F</item>
         <item name="android:itemTextAppearance">@style/ActionBar.Transparent.TMessages.Item</item>
         <item name="android:listViewStyle">@style/Theme.TMessages.ListView</item>
         <item name="android:listChoiceBackgroundIndicator">@drawable/list_selector_ex</item>
@@ -112,7 +118,7 @@
     <!--ACTION BAR-->
 
     <style name="ActionBar.Transparent.TMessages.Start" parent="android:style/Widget.Holo.Light.ActionBar">
-        <item name="android:background">#ff527da3</item>
+        <item name="android:background">#15121D</item>
         <item name="android:logo">@drawable/transparent</item>
         <item name="android:title">""</item>
     </style>
@@ -120,7 +126,7 @@
     <!--ACTION BAR ITEMS-->
 
     <style name="ActionBar.Transparent.TMessages.Item" parent="android:TextAppearance.Widget.IconMenu.Item">
-        <item name="android:textColor">#000000</item>
+        <item name="android:textColor">#F2ECFF</item>
         <item name="android:textSize">18sp</item>
     </style>
 
